@@ -1,6 +1,6 @@
 @media (max-width: 992px){
     .secao-com-texto{
-        padding: 154px 25px;
+        padding: 153px 25px;
     }
     .secao-com-texto h2{
         font-size: 3rem;
@@ -14,7 +14,6 @@
     }
     
 @media (max-width: 768px){
-
     .contato{
         background-image: none;
         background-color: #D3AE71;
@@ -37,9 +36,11 @@
     .ladrilho .medio{
         width: 100%;
     }
-    .ladrilho .pequeno, .ladrilho .pequeno.grao{
+    .ladrilho .pequeno, 
+    .ladrilho .pequeno.grao{
         width: 50%;
     }
+
     .rodape{
         text-align: center;
         background-image: none;
@@ -48,12 +49,15 @@
 
     .rodape .logo{
         display: block;
+        margin-bottom: 122px;
     }
+
     .rodape ul{
         display: block;
         width: 100%;
         margin-bottom: 122px;
     }
+
     .rodape ul li{
         display: block;
     }
@@ -76,6 +80,7 @@
     .cabecalho nav{
         position: static;
         text-align: center;
+        width: 100%;
     }
     .cabecalho nav ul li{
         display: block;
@@ -95,7 +100,8 @@
     }
 }
 @media (max-width: 375px){
-    .ladrilho .pequeno, .ladrilho .pequeno.grao{
+    .ladrilho .pequeno, 
+    .ladrilho .pequeno.grao{
         width: 100%;
     }
 }

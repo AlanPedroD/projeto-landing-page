@@ -148,7 +148,7 @@ body{
 
 .rodape ul{
     float: right;
-    margin: 30px;
+    margin-top: 30px;
 }
 .rodape ul li a:hover{
     font-weight: bold;
